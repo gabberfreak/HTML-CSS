@@ -1,0 +1,159 @@
+body ,div ,header ,h1 ,h2 ,form ,main ,label ,input, button {
+    margin: 0;
+}
+
+body {
+    background-color: #ededed;
+    font-family: Tahoma,Helvetica,sans-serif;
+}
+
+    body #wrapper {
+        background-color: white;
+        margin: 20px;
+        border-radius: 15px;
+        height: 500px;
+        width: 800px;
+        box-shadow: 0 0 15px #6b6b6b;
+    }
+
+        body div form main {
+            width: 270px;
+            display: block;
+        }
+            body div header {
+                text-align: center;
+            }
+
+                body div form {
+                    height: 320px;
+                    vertical-align: top;
+                }
+label {
+    display: block;
+    margin: 10px;
+}
+
+body div form:nth-of-type(2) {
+    display: inline-block;
+
+}
+
+body div form:nth-of-type(1) {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 20px 20px 20px 20px;
+    font-weight: 500;
+    color: #504f57;
+}
+
+h1 {
+    font-size: 24px;
+    padding-top: 30px;
+    color: #313734;
+    font-weight: 500;
+}
+
+body div form main label:nth-of-type(5) {
+    color: #8c8a84;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 90%;
+    float:right;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+}
+
+#Checkbox1 {
+    margin: 0 auto;
+    float: left;
+    margin-top: 5px;
+}
+
+p {
+    color: #dc7380;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+P:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    height: 27px;
+    padding-left: 10px;
+    width: 250px;
+}
+
+#username {
+    background-image: url("../Images/ok.png");
+    background-repeat: no-repeat;
+    background-position: 97% 40%;
+}
+
+#email {
+    background-image: url("../Images/ok.png");
+    background-repeat: no-repeat;
+    background-position: 97% 40%;
+}
+
+#password {
+    background-image: url("../Images/no.png");
+    background-repeat: no-repeat;
+    background-position: 97% 40%;
+}
+
+#password2 {
+    background-image: url("../Images/no.png");
+    background-repeat: no-repeat;
+    background-position: 97% 40%;
+}
+
+#username2 {
+    background-image: url("../Images/ok.png");
+    background-repeat: no-repeat;
+    background-position: 97% 40%;
+}
+
+#password3 {
+    background-image: url("../Images/no.png");
+    background-repeat: no-repeat;
+    background-position: 97% 40%;
+}
+
+
+
+button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    box-shadow: 0 3px 5px #919191;
+}
+
+button:hover {
+    background-color: #aede67;
+    cursor: pointer;
+}
+
+#forms {
+    border-top: 1px solid #cdcdcd;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+body div form:nth-of-type(2) main {
+    display: block;
+}

@@ -1,0 +1,132 @@
+body, div, header,aside,nav,span,section,article,p,h1,h2,footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(../Fonts/Lobster%201.4.otf);
+}
+body {
+        font-family: Open-sans,sans-serif;
+    }
+        body div > header {
+            font-family: Lobster,sans-serif;
+            background-image: url("../Images/got-dolls.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 280px;
+        }
+            body div > header h1 {
+                position: absolute;
+                left: 60%;
+                top: 30%;
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 2.5em;
+                background-color: rgba(112,112,112,.8);
+                padding: 10px;
+            }
+body div #site {
+    width: 920px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+img {
+    width: 184px;
+    height: 200px;
+    float:left;
+    display: block;
+}
+
+aside {
+    float:left;
+    width: 20%;
+    background-color: #ffffff;
+}
+
+section {
+    float: right;
+    width: 78%;
+    text-align: left;
+}
+
+nav > span {
+    display: block;
+    text-align: left;
+    background-color: #4e5359;
+    color: #ffffff;
+    padding: 10px 30px 10px 15px;
+    border-collapse: collapse;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+.basics{
+    background-color: #42464b;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #2f6d6c;
+}
+
+h1, p {
+    font-size: 16px;
+    color: #b9b6bc;
+}
+
+h2 {
+    color: #0000ed;
+    font-size: 20px;
+}
+
+footer {
+    background-image: url("../Images/bgr.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 130px;
+}
+    footer span {
+        position: relative;
+        left: 20%;
+        top: 30%;
+        color: #53566a;
+    }
+
+article {
+    border-top: 3px solid #bab9be;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    background-color: #ffffff;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+h1,h2 {
+    padding-top: 20px;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+#content {
+    background-color: #f2f2f4;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+nav span:hover {
+    cursor: pointer;
+    background-color: #5d6167;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #3aa5a4;
+}

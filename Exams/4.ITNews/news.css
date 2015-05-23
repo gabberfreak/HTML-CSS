@@ -1,0 +1,47 @@
+body {
+    font-family: Verdana, Arial ,Helvetica,sans-serif;
+    font-size: 13px;
+}
+
+body, section , article, div , img, header, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body section article {
+    border: 1px solid #cbcbcb;
+    width: 280px;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    margin: 0 10px 10px 0;
+    padding: 8px;
+    box-shadow: 5px 5px 10px #cbcbcb;
+}
+
+body section {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+body section article p img {
+    float:left;
+    margin: 10px;
+}
+
+body section article header time {
+    font-size: 10px;
+    color: gray;
+}
+
+div {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+div:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

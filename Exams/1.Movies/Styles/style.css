@@ -1,0 +1,61 @@
+body section article img h1 footer p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica,Tahoma,sans-serif;
+}
+
+    body section article {
+        display: inline-block;
+        margin: 5px 20px 0 20px;
+        vertical-align: top;
+        width: 160px;
+        height: 300px;
+
+    }
+        body section article > img{
+            border: 1px solid black;
+            padding: 0 15px 0 15px;
+        }
+
+       body section article h1{
+           font-size: 16px;
+           text-decoration: underline;
+           color: #0a1374;
+           margin: 0 auto;
+           margin-bottom: 5px;
+           height: 40px;
+           font-weight: normal;
+       }
+
+       body section article p {
+           font-size: 12px;
+       }
+               body section article footer > p{
+                   display: inline-block;
+                   color: #818183;
+               }
+
+               body section article footer > img {
+                   border: 1px solid black;
+                   padding: 4px;
+                   border-radius: 2px;
+                   vertical-align: middle;
+               }
+
+                    body section article > img:hover{
+                        cursor: pointer;
+                    }
+
+                    body section article h1:hover{
+                        color: #892d38;
+                        cursor: pointer;
+                    }
+
+                    body section article footer > img:hover {
+                        cursor: pointer;
+                        background-color: #fd0001;
+                    }

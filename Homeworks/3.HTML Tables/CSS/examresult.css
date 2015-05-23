@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.head {
+    font-size: 1.7em;
+    padding: 5px;
+	font-weight: bold;
+}
+body {
+    padding-left: 25px;
+    padding-top: 5px;
+    font-family: tahoma;
+}
+th {
+	font-size: 1em;
+}
+td {
+    font-size: 1em;
+    padding-left: 10px;
+}
+tfoot {
+    text-align: right;
+}
+
+.foot {
+	padding: 3px;
+}

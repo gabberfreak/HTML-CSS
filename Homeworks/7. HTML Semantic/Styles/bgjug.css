@@ -1,0 +1,194 @@
+html, body, header, nav, h1, form,section, a, p,article, div, aside, main,footer, span, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#search {
+    width: 265px;
+    display: flex;
+    border: 1px solid #e2e2e2;
+    position: relative;
+    float:right;
+    margin: -20px 45px 0 0;
+}
+#search input[type="text"] {
+    width: 235px;
+    height: 24px;
+    font-size: 13px;
+    border: none;
+    background-color: #f6f6f6;
+    padding: 2px 0 2px 5px;
+}
+#search input[type="submit"] {
+    position: relative;
+    padding: 4px;
+    float:right;
+    margin-left: -4px;
+    border: 6px solid #f6f6f6;
+    background:  url("../Images/Search.png") no-repeat;
+    background-size: 17px 17px;
+    transform: rotate(-270deg);
+    width: 28px;
+    height: 28px;
+}
+nav {
+    display: inline-block;
+    margin: 60px 0 0 -27px;
+}
+
+hr {
+    width: 95%;
+    margin-left: 25px;
+    display: inline-block;
+    border: 1px ridge #e2e2e2;
+}
+main hr {
+    margin-left: 0;
+    width: 100%;
+}
+h1 {
+    margin-left: 60px;
+    font-weight: 300;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color:#B8B8B8;
+    margin-left: 70px;
+}
+
+#leftside a {
+    text-decoration: none;
+    display: block;
+    color: #329ed1;
+    margin-left: 40px;
+}
+#leftside {
+    display: inline-block;
+    margin-top: 60px;
+    width:160px;
+    height: 500px;
+    vertical-align: top;
+}
+
+main {
+    display: inline-block;
+    width:55%;
+    height: 500px;
+    padding:10px;
+}
+h2 {
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+p {
+    margin-bottom: 15px;
+}
+article {
+    margin-top: 20px;
+}
+.reading {
+    color: #329ed1;
+    text-decoration: none;
+}
+main section {
+    width:600px;
+    margin-left: 70px;
+}
+main section span {
+    font-family: Verdana,Geneva,sans-serif;
+    margin-top: 20px;
+    font-size: 10px;
+    color: #b3c2d4;
+}
+main a {
+    margin:0;
+    color: #b3c2d4;
+}
+
+#rightside {
+    display: inline-block;
+    vertical-align: top;
+    height: 500px;
+    margin-left: 90px;
+    width:200px;
+}
+
+h4 {
+    color: #aeaeae;
+    font-weight: 100;
+    margin: 10px 0 5px 25px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+select {
+    margin: 0 0 20px 30px;
+}
+
+#tweetmsg {
+    height: 30px;
+    background-color: #f6f6f6;
+    line-height: 30px;
+}
+.symbol {
+    background: url('../Images/Twit.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+.message {
+    background-color: #f6f6f6;
+    position: absolute;
+    left: 50px;
+    color: #ab9f9b;
+    font-size: 10px;
+    font-style: italic;
+    width: 80%;
+}
+footer {
+    background-color: #000001;
+    color: white;
+    padding-left: 30px;
+    overflow: hidden;
+    height: 180px;
+}
+footer section {
+    height: 130px;
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 10px 30px;
+}
+footer h2 {
+    font-weight: 100;
+    display: block;
+    width: 150px;
+}
+footer p {
+    color:#B8B8B8;
+    margin-left: 25px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: 20px;
+}
+footer h4 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+footer span {
+    color: white;
+}

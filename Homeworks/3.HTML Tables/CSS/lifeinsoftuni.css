@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tahoma,serif;
+    margin: 5px;
+    color: blue;
+    padding-left: 310px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+button {
+    color: blue;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+th {
+    width: 250px;
+}
+
+th button{
+    padding: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.76em;
+    color: blue;
+    border-radius: 5px;
+    width: 400px;
+}
+
+table button {
+    margin: 3px;
+    border: 1px solid gray;
+    background: rgb(238,238,238);
+    background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%);
+    background: -webkit-gradient(linear, left top,left bottombottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1)));
+    background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -o-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    background: linear-gradient(top, rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 );
+}
+
+.google {
+    padding: 30px;
+    width: 180px;
+    margin-left: 7px;
+}
+
+.github {
+    padding: 30px;
+    width: 200px;
+    margin-left: 7px;
+}
+
+.facebook {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 80px;
+    margin-left: 5px;
+    height: 85px;
+}
+
+.gmail {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 90px;
+    margin-left: 5px;
+    height: 85px;
+}
+
+.youtube {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 95px;
+    margin-left: 6px;
+    height: 85px;
+}
+
+.number {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 94px;
+    height: 85px;
+    margin-left: 5px;
+}
+
+.food {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 80px;
+    margin-left: 5px;
+    height: 85px;
+}
+
+.game {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 200px;
+    margin-left: 5px;
+    height: 85px;
+}
+
+#secondtable .social {
+    font-size: 13px;
+    padding: 5px;
+    height: 40px;
+    width: 94px;
+    margin-left: 3.5px;
+}
+
+.sleep {
+    font-size: 13px;
+    padding: 5px;
+    height: 40px;
+    width: 94px;
+    vertical-align: bottom;
+    margin-left: 3.5px;
+}
+
+#secondtable, #secondtable td {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.beer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 292px;
+    margin-left: 5px;
+    height: 85px;
+    text-align: right;
+    padding-right: 5px;
+}
+.wc {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 92px;
+    margin-left: 5px;
+    height: 85px;
+
+}

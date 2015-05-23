@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Footer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: tahoma, sans-serif;
+            font-size: 14px;
+        }
+        #tweeter {
+            height: 30px;
+            background-color: #f6f6f6;
+            line-height: 30px;
+        }
+        .symbol {
+            background: url('../Images/Twit.png');
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            float: left;
+            margin-top: 2px;
+            margin-left: 20px;
+        }
+        .message {
+            background-color: #f6f6f6;
+            position: absolute;
+            left: 50px;
+            color: #ab9f9b;
+            font-size: 10px;
+            font-style: italic;
+            width: 80%;
+        }
+        #content {
+            background-color: #000001;
+            color: white;
+            padding-left: 30px;
+            overflow: hidden;
+        }
+        .section {
+            height: 130px;
+            width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            margin: 10px 50px 10px 0;
+        }
+        h2 {
+            font-weight: 100;
+            display: block;
+            width: 150px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+        p {
+            color: gray;
+        }
+        h4 {
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+        span {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="tweeter">
+        <span class="symbol"> </span><div class="message">Set your Twitter account name in your settings to use the TwitterBar Section.</div>
+    </div>
+    <div id="content">
+        <div class="section">
+            <h2>BGJUG - Java Bulgarian User Group</h2>
+        </div>
+        <div class="section">
+            <h4>PAGES</h4>
+            <a href="#">About</a>
+            <a href="#">Events</a>
+            <a href="#">Contacts</a>
+        </div>
+        <div class="section">
+            <h4>THE LATEST</h4>
+            <div>An Architecture for E-Voting</div>
+            <p>E-Voting is a hot topic in my country and has been discussed [...]</p>
+        </div>
+        <div class="section">
+            <h4>MORE</h4>
+            <p>Thanks for dropping by! Feel free to join the discussion by leaving comments, and stay updated by subscribing to <span>RSS Feed</span></p>
+        </div>
+        <div class="section">
+            <p class="license">&#169; 2011 - BGJUG - Java Bulgarian User Group</p>
+        </div>
+    </div>
+</body>
+</html>

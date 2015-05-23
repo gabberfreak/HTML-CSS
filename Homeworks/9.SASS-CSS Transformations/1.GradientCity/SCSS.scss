@@ -1,0 +1,201 @@
+$border: 3px double gray;
+$border-light: 1px solid gray;
+$text-color: gray;
+
+@mixin vertical-gradient-btn($from, $to,$repeat:none) {
+  background-image: -webkit-linear-gradient(top, $from, $to);
+  background-image: -moz-linear-gradient(top, $from, $to);
+  background-image: -ms-linear-gradient(top, $from, $to);
+  background-image: -o-linear-gradient(top, $from, $to);
+  background-image: linear-gradient(to bottom, $from, $to);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$from}', endColorstr='#{$to}',GradientType=0 );
+  background-repeat:$repeat;
+}
+@mixin vertical-gradient($start-color) {
+  background: -webkit-linear-gradient($start-color, white);
+}
+@mixin horizontal-gradient($start-color) {
+  background: -webkit-linear-gradient(left, $start-color, white);
+}
+@mixin diagonal-gradient($start-color) {
+  background: -webkit-linear-gradient(left top, $start-color, white);
+}
+@mixin radial-gradient($start-color) {
+  background: radial-gradient($start-color, white);
+}
+@mixin color-div {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  display: inline-block;
+}
+body {
+  font-family: tahoma, sans-serif;
+  font-size: 20px;
+  #wrapper {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    border: $border;
+    text-align: center;
+    header {
+      border: $border;
+      width: 963px;
+      margin-left: 15px;
+      margin-top: 15px;
+      h1 {
+        color: $text-color;
+      }
+      li {
+        list-style-type: none;
+        display: inline-block;
+        border: 1px solid gray;
+        margin-right: 50px;
+        a {
+          border: $border-light;
+          color: $text-color;
+          padding: 10px 20px;
+          display: block;
+          height: 100%;
+          margin: 1px;
+          text-decoration: none;
+          &:hover {
+            cursor: default;
+            color: white;
+            border: 1px solid transparent;
+            @include vertical-gradient-btn($text-color 1%, #fff 100%);
+          }
+        }
+      }
+    }
+  }
+  .radial, .linear {
+    border: $border;
+  }
+  .horizontal, .vertical, .diagonal, section, article {
+    border: $border-light;
+    margin: 15px;
+    color: $text-color;
+    padding-bottom: 10px;
+    h1 {
+      font-size: 17px;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+    h2 {
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+  .innerContainer {
+    div {
+      @include color-div;
+    }
+  }
+  .linear article:nth-child(2) .innerContainer {
+    .purple {
+      @include vertical-gradient(purple);
+    }
+    .blue {
+      @include vertical-gradient(blue);
+    }
+    .green {
+      @include vertical-gradient(green);
+    }
+    .yellow {
+      @include vertical-gradient(yellow);
+    }
+    .orange {
+      @include vertical-gradient(orange);
+    }
+    .red {
+      @include vertical-gradient(red);
+    }
+  }
+  .linear article:nth-child(3) .innerContainer {
+    .purple {
+      @include horizontal-gradient(purple);
+    }
+    .blue {
+      @include horizontal-gradient(blue);
+    }
+    .green {
+      @include horizontal-gradient(green);
+    }
+    .yellow {
+      @include horizontal-gradient(yellow);
+    }
+    .orange {
+      @include horizontal-gradient(orange);
+    }
+    .red {
+      @include horizontal-gradient(red);
+    }
+  }
+  .linear article:nth-child(4) .innerContainer {
+    .purple {
+      @include diagonal-gradient(purple);
+    }
+    .blue {
+      @include diagonal-gradient(blue);
+    }
+    .green {
+      @include diagonal-gradient(green);
+    }
+    .yellow {
+      @include diagonal-gradient(yellow);
+    }
+    .orange {
+      @include diagonal-gradient(orange);
+    }
+    .red {
+      @include diagonal-gradient(red);
+    }
+  }
+  .radial {
+    .innerContainer {
+      padding: 10px;
+      .purple {
+        @include radial-gradient(purple);
+      }
+      .blue {
+        @include radial-gradient(blue);
+      }
+      .green {
+        @include radial-gradient(green);
+      }
+      .yellow {
+        @include radial-gradient(yellow);
+      }
+      .orange {
+        @include radial-gradient(orange);
+      }
+      .red {
+        @include radial-gradient(red);
+      }
+    }
+  }
+  footer {
+    text-align: center;
+    h3 {
+      color: $text-color;
+      font-weight: normal;
+      font-size: 20px;
+      text-decoration: underline;
+      ul {
+        padding: 0;
+        li {
+          list-style-type: none;
+          a {
+            font-size: 15px;
+            text-decoration: none;
+            color: gray;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}

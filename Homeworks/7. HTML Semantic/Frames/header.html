@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Header</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: tahoma, sans-serif;
+            width: 100%;
+            height: 100%;
+            line-height: 12px;
+            margin-top: 12px;
+            font-size: 13px;
+        }
+        .navbar {
+            display: inline-block;
+            margin: 60px 0 5px 30px;
+        }
+        hr {
+            width: 95%;
+            margin-left: 25px;
+            display: inline-block;
+            border: 1px ridge #e2e2e2;
+        }
+        a {
+            text-decoration: none;
+            margin-right: 55px;
+            text-transform: uppercase;
+        }
+        h1 {
+            margin-left: 60px;
+            font-weight: 300;
+        }
+        .search {
+            vertical-align: bottom;
+            width: 270px;
+            border: 1px solid #e2e2e2;
+            display: flex;
+            float:right;
+            margin: 50px 45px -6px 0;
+        }
+
+        .search input[type="text"] {
+            width: 237px;
+            height: 24px;
+            font-size: 13px;
+            border: none;
+            background-color: #f6f6f6;
+            padding: 2px 0 2px 5px;
+        }
+        .search input[type="submit"] {
+            position: relative;
+            padding: 5px;
+            border: 6px solid #f6f6f6;
+            background:  url("../Images/Search.png") no-repeat;
+            background-size: 17px 17px;
+            transform: rotate(-270deg);
+            width: 28px;
+            height: 28px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BGJUG - Bulgarian Java User Group</h1>
+    <div class="navbar">
+        <a href="#">about</a>
+        <a href="#">events</a>
+        <a href="#">contacts</a>
+    </div>
+    <div class="search">
+        <input type="text" name="search" placeholder="Search"/>
+        <input type="submit" name="searchBtn" value=""/>
+    </div>
+    <hr/>
+</body>
+</html>

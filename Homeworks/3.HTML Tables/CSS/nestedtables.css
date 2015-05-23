@@ -1,0 +1,15 @@
+body {
+    font-family: tahoma;
+    font-size:50px;
+}
+
+table, td {
+    border: 1px solid black;
+}
+td {
+	padding: 10px;
+	font-size: 1.3em;
+}
+.image {
+	padding-bottom: 2px;
+}

@@ -1,0 +1,91 @@
+body {
+    font-family: tahoma, sans-serif;
+}
+
+#container {
+    width: 470px;
+    height: 370px;
+    margin: 0 auto;
+    background-color: #ffc0cb;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+#directs {
+    margin: 0;
+    height: 15px;
+}
+
+#return-time, #retuen-time-end {
+    margin-top: 5px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2.3em;
+}
+
+select {
+    font-weight: bold;
+    font-size: 1em;
+    width: 215px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+input {
+    font-size: 1.2em;
+    margin: 5px 0;
+    height: 21px;
+}
+
+#left {
+    float: left;
+    width: 225px;
+    padding: 10px 0 10px 10px;
+}
+
+#from-city {
+    margin-bottom: 27px;
+}
+
+#right {
+    float: right;
+    width: 225px;
+    padding: 10px 10px 10px 0;
+}
+
+.left-div-input {
+    width: 215px;
+    height: 25px;
+}
+
+#inner-left input {
+    width: 65px;
+    height: 19px;
+}
+
+#inner-left label[for="over-twelve"] {
+    padding-right: 44px;
+}
+
+#inner-left label[for="two-twelve"] {
+    padding-right: 39px;
+}
+
+.time {
+    width: 100px;
+    height: 25px;
+    margin-top: 9px;
+}
+
+#flight-class {
+    width: 215px;
+}
+
+#search {
+    width: 215px;
+    height: 32px;
+    font-size: 1em;
+}

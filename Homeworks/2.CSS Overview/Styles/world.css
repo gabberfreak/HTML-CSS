@@ -1,0 +1,291 @@
+body {
+    font-family: tahoma;
+    background-color: darkgreen;
+    font-size: 20px;
+}
+
+ table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    color: black;
+    background-color: #f8c711;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+td {
+    width: 200px;
+    height: 90px;
+}
+
+#container {
+    border-radius: 25px;
+    width: 1200px;
+    margin: 0 auto;
+    border: 2px solid black;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.country1 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.country2 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.brasil1 {
+    text-align: right;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.brasil1:after {
+    content: url("brazilian-flag-small.png");
+    padding-left: 8px;
+}
+
+.result {
+    text-align: center;
+    background-color: white;
+    width: 100px;
+}
+
+.mexico1 {
+    text-align: left;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.mexico1:before {
+    content: url("mexican-flag-small.png");
+    padding-right: 8px;
+}
+
+.group {
+    width: 100px;
+    background-color: white;
+    text-align: center;
+}
+
+.brasil2{
+    background-color: white;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.score {
+    background-color: white;
+    width: 11%;
+    text-align: center;
+}
+
+select:disabled {
+    background-color: #dcdcdc;
+    color: red;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.mexico2 {
+    text-align: left;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.button {
+    width: 93px;
+    text-align: center;
+    background-color: white;
+}
+
+button:disabled {
+    border-radius: 35px;
+    background-color: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.spain1 {
+    text-align: right;
+    background-color: #c8c8c8;
+    padding-right: 10px;
+}
+
+.spain1:after{
+    content: url("spanish-flag-small.png");
+    padding-left: 8px;
+}
+
+.result2 {
+    text-align: center;
+    background-color: #c8c8c8;
+    width: 100px;
+}
+
+.netherlands1 {
+    text-align: left;
+    background-color: #c8c8c8;
+    padding-left: 10px;
+}
+
+.netherlands1:before {
+    content: url("netherlands-flag-small.png");
+    padding-right: 8px;
+}
+
+.group2 {
+    text-align: center;
+    background-color: #c8c8c8;
+    width: 100px;
+}
+
+.spain2 {
+    background-color:  #c8c8c8;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.score2 {
+    background-color: #c8c8c8;
+    width: 110px;
+    text-align: center;
+}
+
+.netherlands2 {
+    background-color:  #c8c8c8;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.button2 {
+    width: 93px;
+    text-align: center;
+    background-color: #c8c8c8;
+}
+
+.italy1 {
+    text-align: right;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.italy1:after {
+    content: url("italian-flag-small.png");
+    padding-left: 8px;
+}
+
+.england {
+    text-align: left;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.england:before {
+    content: url("english-flag-small.png");
+    padding-right: 8px;
+}
+
+.italy2 {
+    text-align: right;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.england2 {
+    text-align: left;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.argentina1 {
+    background-color:  #c8c8c8;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.argentina1:after {
+    content: url("argentinian-flag-small.png");
+    padding-left: 8px;
+}
+
+.bosnia1 {
+    background-color:  #c8c8c8;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.bosnia1:before{
+    content: url("bosnian-flag-graphic.png");
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+.argentina2 {
+    background-color:  #c8c8c8;
+    text-align: right;
+    padding-right: 10px;
+}
+
+select:enabled {
+    background-color: white;
+    color: green;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.bosnia2 {
+    background-color:  #c8c8c8;
+    text-align: left;
+    padding-left: 10px;
+}
+
+button:enabled {
+    border-radius: 35px;
+    background-color: green;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.germany1 {
+    text-align: right;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.germany1:after {
+    content: url("german-flag-small.png");
+    padding-left: 8px;
+}
+
+.portugal1 {
+    text-align: left;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.portugal1:before {
+    content: url("portuguese-flag-small.png");
+    padding-right: 8px;
+}
+
+.germany2 {
+    text-align: right;
+    background-color: white;
+    padding-right: 10px;
+}
+
+.portugal2 {
+    text-align: left;
+    background-color: white;
+    padding-left: 10px;
+}
